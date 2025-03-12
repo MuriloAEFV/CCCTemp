@@ -1,0 +1,66 @@
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #000;
+  padding: 20px;
+}
+
+.h2-temperature {
+  color: #000;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  margin-left: 15px;
+  color: #000;
+}
+
+.page-content-temperature {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 4px 8px #1eff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  text-align: center;
+  overflow: hidden;
+  position: relative; 
+  z-index: 10;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 11;
+  margin-left: 80px;
+}
+
+.label-temp {
+  margin-right: 100px;
+  color: #000;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.result-container {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

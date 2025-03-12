@@ -1,0 +1,58 @@
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #000;
+}
+
+.content-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 8px #1eff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.h2-stopwatch {
+  color: #000000;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.time-display {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #027708d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  width: 130px;
+  font-size: 25px;
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
