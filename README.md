@@ -21,8 +21,7 @@ O site foi desenvolvido utilizando **Next.js**, **TypeScript**, e está hospedad
 
 ### Passos
 1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/CCCtemp.git
+  https://github.com/MuriloAEFV/CCCTemp.git
 Navegue até a pasta do projeto:
 cd CCCtemp
 Instale as dependências:
