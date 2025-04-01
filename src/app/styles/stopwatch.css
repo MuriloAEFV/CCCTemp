@@ -6,6 +6,14 @@
   background-color: #000;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .content-container {
   background-color: #fff;
   padding: 20px;
@@ -48,11 +56,23 @@ button {
   font-size: 25px;
 }
 
-
 .content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.result {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.result::after {
+  content: attr(data-value);
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

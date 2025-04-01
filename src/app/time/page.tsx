@@ -78,7 +78,7 @@ export default function ConversorTempo() {
 
                 <button onClick={convertTime}>Convert</button>
 
-                <div className="result-container">{convertedTime}</div>
+                <div className="result-container"> {parseFloat(convertedTime).toFixed(2)}</div>
             </div>
         </div>
     );
