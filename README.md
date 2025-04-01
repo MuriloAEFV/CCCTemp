@@ -19,14 +19,17 @@ O site foi desenvolvido utilizando **Next.js**, **TypeScript**, e está hospedad
 ### Requisitos
 - Node.js (recomenda-se a versão LTS)
 
-### Passos
+### Passos (git clone)
 1. Clone este repositório:
   https://github.com/MuriloAEFV/CCCTemp.git
-Navegue até a pasta do projeto:
-cd CCCtemp
-Instale as dependências:
 
-npm install
+Navegue até a pasta do projeto:
+cd CCCtemp (entra na pasta do arquivo)
+
+Instale as dependências:
+npm install 
+
 Rode o servidor de desenvolvimento:
 npm start - npm run dev
+
 Abra o navegador e acesse http://localhost:3000.
